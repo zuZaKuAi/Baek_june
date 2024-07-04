@@ -9,7 +9,7 @@ int main() {
 	for (int i = 0; i < t; i++)
 	{
 		cin >> h >> w >> n;
-		cout << ((n % h == 0) ? h*100 :(n % h * 100)) + ((n % h == 0) ? n / h : (n / h + 1)) << endl;
+		cout << ((n % h == 0) ? h*100 + n / h :(n % h * 100)+ (n / h + 1)) << endl;
 	}
 	return 0;
 }
