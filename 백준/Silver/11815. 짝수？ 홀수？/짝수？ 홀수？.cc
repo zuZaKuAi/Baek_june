@@ -10,7 +10,7 @@ int main() {
 		a1 = 0;
 		cin >> a;
 		
-		if (static_cast<long long>(sqrtl(a))== sqrtl(a))
+		if ((long long)sqrtl(a)== sqrtl(a))
 		{
 			a1=1;
 		}
